@@ -1,0 +1,28 @@
+.list-responsive {
+    .list-header {
+        background: rgba(52, 73, 94, 0.94);
+        color: #ECF0F1;
+        font-weight: bold;
+        padding: 0px 10px;
+
+        .col-item {
+            padding: 10px;
+        }
+    }
+
+    .list-body {
+        padding: 0px 10px 10px 10px;
+
+        .row {
+            border-bottom: 1px solid #ddd;
+
+            &:hover {
+                background-color: #f9f9f9;
+            }
+
+            .col-item {
+                padding: 10px;
+            }
+        }
+    }
+}
